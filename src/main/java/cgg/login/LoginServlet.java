@@ -37,7 +37,7 @@ public class LoginServlet extends HttpServlet {
 			response.sendRedirect("welcomeServlet");
 		}
 		else {
-			response.sendRedirect("errorServlet?error=1");
+			response.sendRedirect("errorServlet");
 			
 		}
 	}

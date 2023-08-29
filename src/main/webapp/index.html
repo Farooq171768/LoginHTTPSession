@@ -5,15 +5,18 @@
 <title>Login Page</title>
 </head>
 <body>
-	<h1>Login</h1>
-	<form action="LoginServlet" method="post">
-		<label style='margin-right:10px' for="useranme">Username:</label>
-		<input type="text" id="username" name="username" required><br><br>
+	<div style="margin-left:500px;margin-top:200px">
+	<h1 style="margin-left:100px">Login</h1>
+		<form action="LoginServlet" method="post">
+		<label style='margin-right:10px' for="useranme"><b>Username:</b></label>
+		<input  style='font-size:15px' type="text" id="username" name="username" required><br><br>
 		
-		<label for="password">Password:</label>
-		<input type="password" id="password" name="password" required><br><br>
+		<label for="password"><b>Password:</b></label>
+		<input style='font-size:15px;margin-left:15px' type="password" id="password" name="password" required><br><br>
 		
-		<input type="submit" value="Login">
+		<input style='margin-left:100px' type="submit" value="Login">
 		</form>
+	</div>
+	
 </body>
 </html>

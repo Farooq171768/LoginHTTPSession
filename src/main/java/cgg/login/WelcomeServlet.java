@@ -36,7 +36,7 @@ public class WelcomeServlet extends HttpServlet {
 			
 			out.println("<h1>Welcome, "+session.getAttribute("username")+ "</h1>");
 			out.println("<h3>You are now logged in!<h3>");
-			out.println("<a href='index.html'>Logout</a>");
+			out.println("<a href='logoutServlet'>Logout</a>");
 			//session.invalidate();
 		}
 		else {
